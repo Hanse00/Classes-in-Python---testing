@@ -47,10 +47,10 @@ used during the animation. These will in the general case include many of the sa
 -m<br>
 -c<br>
 
-Then I think I will need some rules to calculate the new velocity after collision of two elements. I will start with:
--movement can only be in the x or y directions (this is very limiting, will produce uninteresting animations, I think)
+Then I think I will need some rules to calculate the new velocity after collision of two elements. I will start with:<br>
+-movement can only be in the x or y directions (this is very limiting, will produce uninteresting animations, I think)<br>
 -when an element falls on and collides with another element, then 80% of the impuls energy is transfered to the element
 below the element and 10% to the elements that are on each side of it. If there are no elements adjacent then the 
-energy disappears.
+energy disappears.<br>
 
 Ok, these are my first thoughts on the problem.
