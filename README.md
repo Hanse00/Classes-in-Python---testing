@@ -10,16 +10,16 @@ like to explore what happens when an object x is released at top row and allowed
 water-like objects, w, that are in the bottom rows. Except for the x and w objects there are no other physical 
 object in the world. The 0 objects are just empty space.
 
-00123456789
-10000x00000
-20000000000
-30000000000
-40000000000
-50000000000
-60000000000
-7wwwwwwwwww
-8wwwwwwwwww
-9wwwwwwwwww
+00123456789<br>
+10000x00000<br>
+20000000000<br>
+30000000000<br>
+40000000000<br>
+50000000000<br>
+60000000000<br>
+7wwwwwwwwww<br>
+8wwwwwwwwww<br>
+9wwwwwwwwww<br>
 
 Some data for the world could be:
 -gravity: g
@@ -50,7 +50,7 @@ definition of the initial conditions:
 -c
 
 Then I think I will need some rules to calculate the new velocity after collision of two elements. I will start with:
--movment can only be in the x or y directions (this is very limiting, will produce uninteresting animations, I think)
+-movement can only be in the x or y directions (this is very limiting, will produce uninteresting animations, I think)
 -when an element falls on and collides with another element, then 80% of the impuls energy is transfered to the element
 below the element and 10% to the elements that are on each side of it. If there are no elements adjacent then the energy 
 disappears.
