@@ -7,19 +7,19 @@ I am also testing GitHub as a way to store my code, and I am curious about the c
 
 My idea is to define a very simple 2D world of say 10 x 10 elements, arranged in a vertical matrix. Then I would 
 like to explore what happens when an object x is released at top row and allowed to fall and collide with say 
-water-like objects, w, that are in the bottom rows. Except for the x and w objects there are no other physical 
-object in the world. The 0 objects are just empty space.
+water-like objects, 8, that are in the bottom rows. Except for the x and 8 objects there are no other physical 
+objects in the world. The 0 objects are just empty space.
 
 00123456789<br>
-10000x00000<br>
+100000x0000<br>
 20000000000<br>
 30000000000<br>
 40000000000<br>
 50000000000<br>
 60000000000<br>
-7wwwwwwwwww<br>
-8wwwwwwwwww<br>
-9wwwwwwwwww<br>
+78888888888<br>
+88888888888<br>
+98888888888<br>
 
 Some data for the world could be:
 -gravity: g
